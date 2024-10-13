@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "edgedriver": "^5.6.1"
+  }
+}
