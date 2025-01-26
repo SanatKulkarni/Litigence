@@ -10,7 +10,7 @@ import * as pdfjs from 'pdfjs-dist/build/pdf.mjs'
 import pdfjsWorker from 'pdfjs-dist/build/pdf.worker.mjs'
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
-const API_KEY = 'AIzaSyD7rysGof45XoGHYw6jxVmhjTOFJanuGnU'
+const API_KEY = 'Google-API-Key'
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${API_KEY}`
 
 export default function CourtOrderUploadComponent() {
